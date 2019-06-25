@@ -39,7 +39,8 @@ export default class MapContainer extends React.PureComponent {
       center,
       zoom,
       maxZoom: 16,
-      minZoom: 11
+      minZoom: 11,
+      logoPosition: 'top-left'
     });
 
     this.map.on('load', ()=> {
@@ -60,7 +61,7 @@ export default class MapContainer extends React.PureComponent {
         'layout': {},
         'paint': {
           // The fill color for the layer is set to a light purple
-          'fill-color': '#5a3fc0',
+          'fill-color': '#a3a3c2',
           'fill-opacity': 0.3
         }
       }, "poi-label");
@@ -102,7 +103,7 @@ export default class MapContainer extends React.PureComponent {
     // Create variables to use in getIso()
     const urlBase = 'https://api.mapbox.com/isochrone/v1/mapbox/';
     const profile = 'walking';
-    const minutes = 10;
+    const minutes = 5;
 
     const query = `${urlBase}${profile}/${center}?contours_minutes=${minutes}&polygons=true&access_token=${this.props.mapboxAccessToken}`;
 

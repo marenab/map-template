@@ -20,24 +20,13 @@ class Main extends React.Component {
     this.layerIds = ['Bikeways', 'SFMTA metro routes', 'SFMTA bus routes', 'SFUSD School Lands', 'School Speed Zones'];
     
     this.state = {
-      docTitleText: 'Title goes here',
-      docBodyText: `
-# Heading one
-
-Description paragraphs can go here. And can be **bold** or _italicized_.
-
-* Or
-* Maybe
-* Some bullets?
-
-## Heading two`,
+      docTitleText: '<pick a school>',
       styleUrl: 'mapbox://styles/safe-routes-to-school/cjxc315vp53xs1cl4m5qi3y31',
-      hasIsochrone: true,
       zoom: 11.35,
       center: [-122.4345, 37.7802],
       showTransitLayers: true,
       showBikeLayers: true,
-      legendFinished: false,
+      showWalkingIsochrone: true,
       formData: {
         zoom: '14',
         center: '-122.41918,37.77483',
@@ -115,6 +104,9 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
     })
   }
 
+  onToggleWalkingIsochrone = val => {
+    this.setState({showWalkingIsochrone: val});
+  }
   updateMapFromForm = () => {
     const latLon = this.state.formData.center.split(',');
     this.setState({
@@ -160,7 +152,7 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
       <MapContainer
         center={this.state.center}
         zoom={this.state.zoom}
-        hasIsochrone={this.state.hasIsochrone}
+        hasIsochrone={this.state.showWalkingIsochrone}
         styleUrl={this.state.styleUrl}
         onMove={this.updateFromMap}
         mapDivId="map"
@@ -183,15 +175,23 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
   }
 
   exportMap = () => {
-    printMap({map: this.state.mapObj});
+    printMap({map: this.state.mapObj, filename: this.state.docTitleText});
   }
 
   render() {
     const { props, state } = this;
     return (
       <div id="main">
-        <div id="menuArea" className="grid mx24 my24">
-          <div className="col col--6">
+        <div id="formArea" className="grid px24 pt24">
+          <div className="col col--3 px24">
+            <ControlSelect
+              id="schoolSelect"
+              label="School"
+              themeControlSelectContainer="py24"
+              onChange={this.onChangeSchool}
+              value={this.state.formData.school}
+              options={this.schoolsList}
+            />
             <ControlTextarea
               id="document-title"
               label="Title"
@@ -201,15 +201,7 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
               onChange={this.onChangeTitle}
             />
           </div>
-          <div id="formArea" className="col col--6 px24">
-            <ControlSelect
-              id="schoolSelect"
-              label="School"
-              themeControlSelectContainer="py24"
-              onChange={this.onChangeSchool}
-              value={this.state.formData.school}
-              options={this.schoolsList}
-            />
+          <div className="col col--3 px24 pt24">
             <ControlSwitch
                 id="toggleLayerBike"
                 label="Bike route and bikeshare stations"
@@ -222,24 +214,32 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
                 onChange={this.onToggleTransitLayers}
                 value = {this.state.showTransitLayers}
             />
-            <div className="my24">
-              <Button onClick={this.exportMap} variant="secondary">
-                Export map
-              </Button>
-            </div>
+            <ControlSwitch
+                id="toggleWalkingIsochrone"
+                label="10-min Walk Radius"
+                onChange={this.onToggleWalkingIsochrone}
+                value = {this.state.showWalkingIsochrone}
+            />
           </div>
-          <p className="mt12">
-            The area below is a preview of what your document will look like.
-          </p>
-        </div>
-        <div id="mapArea" className="grid px12">
+          <div className="my24  align-center ">
+            <Button onClick={this.exportMap} variant="secondary">
+            Export map
+            </Button>
+          </div>
+          </div>
           <h1
             style={{ marginTop: '29px' }}
-            className="mb12  txt-h1"
+            className="mb12  px24 txt-h1"
           >
             {this.state.docTitleText}
           </h1>
+
           <div className="col col--12 h600">
+            
+          </div>
+
+        <div id="mapArea" className="grid px12">
+          <div className="relative" style={{display: 'block', height:'936px', width: '792px'}}>
             {this.renderMap()}
             <div className="bg-white px12 py12 absolute bottom left">
               {this.state.legendComponent}

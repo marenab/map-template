@@ -7,7 +7,7 @@ import mapboxLogo from "./attribution/mapbox-logo-color.png";
 
 // Saves a print-resolution map to disk
 // Returns a promise that resolves once save is complete
-export function printMap({ map, dimensions = [1024, 1024], filename = "map" }) {
+export function printMap({ map, dimensions = [792, 936], filename = "map" }) {
   return new Promise((resolve, reject) => {
     const screenPixelRatio = window.devicePixelRatio;
     const screenCanvas = map.getCanvas();
@@ -62,12 +62,12 @@ export function printMap({ map, dimensions = [1024, 1024], filename = "map" }) {
             {
               src: mapboxLogo,
               x: 20,
-              y: canvas.height - 110
+              y: canvas.height - 75
             },
             {
               src: mapboxAttribution,
-              x: canvas.width - 520,
-              y: canvas.height - 85
+              x: canvas.width - 430,
+              y: canvas.height - 75
             }
           ],
           {
