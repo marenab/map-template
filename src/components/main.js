@@ -97,11 +97,19 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
   };
 
   onToggleBikeLayers = val => {
-    console.log(val);
+    const bikeLayers = ['Bikeways','Bikeshare Stations'];
+    this.setState({showBikeLayers: val});
+    bikeLayers.forEach(layer => {
+      this.state.mapObj.setLayoutProperty(layer, 'visibility', val ? 'visible' : 'none');
+    });
   }
 
   onToggleTransitLayers = val => {
-    console.log(val);
+    const transitLayers = ['SFMTA route labels', 'BART stations', 'SFMTA stops', 'SFMTA routes'];
+    this.setState({showTransitLayers: val});
+    transitLayers.forEach(layer => {
+      this.state.mapObj.setLayoutProperty(layer, 'visibility', val ? 'visible' : 'none');
+    })
   }
 
   updateMapFromForm = () => {
