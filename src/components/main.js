@@ -22,7 +22,7 @@ class Main extends React.Component {
 Description paragraphs can go here. And can be **bold** or _italicized_.
 
 * Or
-* Maybe 
+* Maybe
 * Some bullets?
 
 ## Heading two`,
@@ -184,7 +184,11 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
                 {
                   label: 'Mapbox Light',
                   value: 'mapbox://styles/mapbox/light-v10'
-                }
+                },
+                  {
+                      label: 'Safe Routes to Schools',
+                      value: 'mapbox://styles/safe-routes-to-school/cjxc315vp53xs1cl4m5qi3y31'
+                  }
               ]}
             />
             <ControlTextarea
