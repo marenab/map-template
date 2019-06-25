@@ -20,7 +20,7 @@ export default class MapContainer extends React.PureComponent {
   }
 
   static defaultProps = {
-    mapboxAccessToken: process.env.MAPBOX_ACCESS_TOKEN,
+    mapboxAccessToken: "pk.eyJ1Ijoic2FmZS1yb3V0ZXMtdG8tc2Nob29sIiwiYSI6ImNqeGFxeTlkcjE5OXYzdHFicGcyNXFxNjAifQ.-2qdb6JZxOH549ZTzS_M_w",
     mapContainerStyle: {
       position: 'relative',
       width: '100%',
@@ -36,11 +36,9 @@ export default class MapContainer extends React.PureComponent {
       container: this.mapContainer.current, // this.ref.current instead of assigning ref via callback as in older examples
       style: styleUrl,
       center,
-      zoom
-    });
-
-    const marker = new mapboxgl.Marker({
-      'color': '#314ccd'
+      zoom,
+      maxZoom: 16,
+      minZoom: 11
     });
 
     this.map.on('load', ()=> {
@@ -65,9 +63,6 @@ export default class MapContainer extends React.PureComponent {
           'fill-opacity': 0.3
         }
       }, "poi-label");
-
-      // Initialize the marker at the query coordinates
-      marker.setLngLat(center).addTo(this.map);
 
       if(hasIsochrone) {
         this.addIso(center).then(res => {
