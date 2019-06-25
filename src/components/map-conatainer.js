@@ -102,7 +102,7 @@ export default class MapContainer extends React.PureComponent {
     // Create variables to use in getIso()
     const urlBase = 'https://api.mapbox.com/isochrone/v1/mapbox/';
     const profile = 'walking';
-    const minutes = 15;
+    const minutes = 10;
 
     const query = `${urlBase}${profile}/${center}?contours_minutes=${minutes}&polygons=true&access_token=${this.props.mapboxAccessToken}`;
 

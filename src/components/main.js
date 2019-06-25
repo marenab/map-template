@@ -84,11 +84,12 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
     const schoolFeature = schoolsGeoJSON.features[val];
     let updatedFormData = _.set(this.state.formData, 'center', schoolFeature.geometry.coordinates);
     updatedFormData = _.set(this.state.formData, 'school', val);
-    updatedFormData = _.set(this.state.formData, 'zoom', '15');
+    updatedFormData = _.set(this.state.formData, 'zoom', '14');
     this.setState({
       formData: updatedFormData,
       center: schoolFeature.geometry.coordinates,
-      zoom: 15
+      zoom: 15,
+      docTitleText: schoolFeature.properties.facility_name
     });
 
   };
@@ -182,7 +183,7 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
               }
               options={[
                 {
-                  label: 'Display 15-minute walking isochrone?',
+                  label: 'Display 10-minute walking isochrone?',
                   value: 'display-isochrone'
                 }
               ]}
