@@ -37,11 +37,8 @@ export default class MapContainer extends React.PureComponent {
       style: styleUrl,
       center,
       zoom,
-      hash: true
-    });
-
-    const marker = new mapboxgl.Marker({
-      'color': '#314ccd'
+      maxZoom: 16,
+      minZoom: 11
     });
 
     this.map.on('load', ()=> {
@@ -66,9 +63,6 @@ export default class MapContainer extends React.PureComponent {
           'fill-opacity': 0.3
         }
       }, "poi-label");
-
-      // Initialize the marker at the query coordinates
-      marker.setLngLat(center).addTo(this.map);
 
       if(hasIsochrone) {
         this.addIso(center).then(res => {
