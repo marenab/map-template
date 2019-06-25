@@ -1,0 +1,3623 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 1,
+        "facility_id": 3319,
+        "facility_name": "Presidio Early Education School",
+        "address": "387 Moraga Avenue",
+        "city": "San Francisco",
+        "zip_code": "94129",
+        "owned_leased": "Lease",
+        "dept_id": 9,
+        "department_name": "Non-City",
+        "land_id": null,
+        "land_name": null,
+        "dropped_from_db": 0,
+        "school_type": "PreK/TK",
+        "neighborhoods": "Presidio ",
+        "phone": "415-561-5822"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46103171111277,
+          37.79767909763982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 2,
+        "facility_id": 3316,
+        "facility_name": "KIPP Bayview Academy",
+        "address": "1060 Key Avenue",
+        "city": "San Francisco",
+        "zip_code": "94124",
+        "owned_leased": "Lease",
+        "dept_id": 9,
+        "department_name": "Non-City",
+        "land_id": null,
+        "land_name": null,
+        "dropped_from_db": 0,
+        "school_type": "Charter School",
+        "neighborhoods": "Bayview ",
+        "phone": "415-467-2522"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39637604076508,
+          37.71934775078104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 3,
+        "facility_id": 3324,
+        "facility_name": "Five Keys Charter School",
+        "address": "70 Oak Grove Street",
+        "city": "San Francisco",
+        "zip_code": "94107",
+        "owned_leased": "Lease",
+        "dept_id": 9,
+        "department_name": "Non-City",
+        "land_id": 880,
+        "land_name": "Five Keys Charter",
+        "dropped_from_db": 0,
+        "school_type": "Charter School",
+        "neighborhoods": "South of Market ",
+        "phone": "415-734-3310"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40210938984396,
+          37.77721899906131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 4,
+        "facility_id": 1375,
+        "facility_name": "Raoul Wallenberg High",
+        "address": "40 Vega Street",
+        "city": "San Francisco",
+        "zip_code": "94118",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 428,
+        "land_name": "Wallenberg, Raoul High School",
+        "dropped_from_db": 0,
+        "school_type": "Grades 9-12",
+        "neighborhoods": "Western Addition ",
+        "phone": "415-749-3469"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4467707107373,
+          37.77985305215503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 5,
+        "facility_id": 552,
+        "facility_name": "Creative Arts Charter",
+        "address": "1601 Turk St",
+        "city": "San Francisco",
+        "zip_code": "94115",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 414,
+        "land_name": "Creative Arts Charter School",
+        "dropped_from_db": 0,
+        "school_type": "Charter School",
+        "neighborhoods": "",
+        "phone": "415-749-3509"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43590925699381,
+          37.77988594369489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 6,
+        "facility_id": 493,
+        "facility_name": "Claire Lilienthal (3-8 Winfield Scott Campus)",
+        "address": "3630 Divisadero Street",
+        "city": "San Francisco",
+        "zip_code": "94123",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 421,
+        "land_name": "Lilienthal, Claire (3-8 Winfield Scott Campus)",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-8",
+        "neighborhoods": "Marina ",
+        "phone": "(415) 749-3516"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4432107797928,
+          37.80322387627057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 7,
+        "facility_id": 755,
+        "facility_name": "Francisco Middle",
+        "address": "2190 Powell Street",
+        "city": "San Francisco",
+        "zip_code": "94133",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 386,
+        "land_name": "FRANCISCO MIDDLE SCHOOL",
+        "dropped_from_db": 0,
+        "school_type": "Grades 6-8",
+        "neighborhoods": "North Beach ",
+        "phone": "415-291-7900"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41103483491132,
+          37.80436520929378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 8,
+        "facility_id": 852,
+        "facility_name": "Harvey Milk Civil Rights Academy",
+        "address": "4235 19th Street",
+        "city": "San Francisco",
+        "zip_code": "94114",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 473,
+        "land_name": "HARVEY MILK CIVIL RIGHTS ACADEMY",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Castro/Upper Market ",
+        "phone": "415-241-6276"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43646833698558,
+          37.758984618255965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 9,
+        "facility_id": 936,
+        "facility_name": "Jefferson Early Education",
+        "address": "1350 25th Avenue",
+        "city": "San Francisco",
+        "zip_code": "94122",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 895,
+        "land_name": "Jefferson Early Education School",
+        "dropped_from_db": 0,
+        "school_type": "PreK",
+        "neighborhoods": "Inner Sunset ",
+        "phone": "415-759-2852"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.48318047124837,
+          37.76232488125367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 10,
+        "facility_id": 950,
+        "facility_name": "Jose Ortega Elementary",
+        "address": "400 Sargent Street",
+        "city": "San Francisco",
+        "zip_code": "94132",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 744,
+        "land_name": "Ortega, Jose Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "PreK-5",
+        "neighborhoods": "Ocean View ",
+        "phone": "415-469-4726"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4663072769262,
+          37.71638392658929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 11,
+        "facility_id": 1769,
+        "facility_name": "Theresa Mahler CDC",
+        "address": "990 Church Street",
+        "city": "San Francisco",
+        "zip_code": "94114",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 287,
+        "land_name": "Mahler, Theresa S. Early Education School",
+        "dropped_from_db": 0,
+        "school_type": "PreK",
+        "neighborhoods": "Noe Valley ",
+        "phone": "415-695-5871"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42810985013512,
+          37.75527847118367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 12,
+        "facility_id": 614,
+        "facility_name": "Dr Martin Luther King Middle",
+        "address": "350 Girard Street",
+        "city": "San Francisco",
+        "zip_code": "94134",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 900,
+        "land_name": "King, Dr. Martin Luther, Jr. Middle School",
+        "dropped_from_db": 0,
+        "school_type": "Grades 6-8",
+        "neighborhoods": "Excelsior ",
+        "phone": "415-330-1500"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40548096922622,
+          37.72770792976271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 13,
+        "facility_id": 504,
+        "facility_name": "Commodore Sloat Elementary",
+        "address": "50 Darien Way",
+        "city": "San Francisco",
+        "zip_code": "94127",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 484,
+        "land_name": "Sloat, Commodore Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "West of Twin Peaks ",
+        "phone": "415-759-2807"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47058235756671,
+          37.73167527982631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 14,
+        "facility_id": 1110,
+        "facility_name": "Miraloma Elementary",
+        "address": "175 Omar Way",
+        "city": "San Francisco",
+        "zip_code": "94127",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 883,
+        "land_name": "Miraloma Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "West of Twin Peaks ",
+        "phone": "415-469-4734"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.45015021775191,
+          37.73913064064063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 15,
+        "facility_id": 893,
+        "facility_name": "Ida B Wells High",
+        "address": "1099 Hayes Street.",
+        "city": "San Francisco",
+        "zip_code": "94117",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 418,
+        "land_name": "Wells, Ida B. High School",
+        "dropped_from_db": 0,
+        "school_type": "Grades 9-12",
+        "neighborhoods": "Hayes Valley ",
+        "phone": "415-241-6315"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43405009829192,
+          37.774991329056704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 16,
+        "facility_id": 1627,
+        "facility_name": "Spring Valley Elementary",
+        "address": "1451 Jackson Street",
+        "city": "San Francisco",
+        "zip_code": "94109",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 393,
+        "land_name": "Spring Valley Elementary/Early Education",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Nob Hill ",
+        "phone": "415-749-3535"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41881333707504,
+          37.794024967431845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 17,
+        "facility_id": 120,
+        "facility_name": "Alvarado Elementary",
+        "address": "625 Douglass Street",
+        "city": "San Francisco",
+        "zip_code": "94114",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 476,
+        "land_name": "Alvarado Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "TK-5",
+        "neighborhoods": "Noe Valley ",
+        "phone": "415-695-5695"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43859898093939,
+          37.753755644460185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 18,
+        "facility_id": 1484,
+        "facility_name": "SF International High",
+        "address": "1050 York Street",
+        "city": "San Francisco",
+        "zip_code": "94110",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 504,
+        "land_name": "S. F. International High School",
+        "dropped_from_db": 0,
+        "school_type": "Grades 9-12",
+        "neighborhoods": "Mission ",
+        "phone": "415-695-5781"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40865287468036,
+          37.755250784686254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 19,
+        "facility_id": 1485,
+        "facility_name": "SF Public Montessori Elementary",
+        "address": "2340 Jackson Street",
+        "city": "San Francisco",
+        "zip_code": "94115",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 405,
+        "land_name": "Gateway Middle/S.F. Public Montessori",
+        "dropped_from_db": 0,
+        "school_type": "PreK-5",
+        "neighborhoods": "Pacific Heights ",
+        "phone": "415-749-3544"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43345147535962,
+          37.792809964022446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 20,
+        "facility_id": 1455,
+        "facility_name": "Asawa San Francisco School of the Arts (SOTA)",
+        "address": "555 Portola Drive",
+        "city": "San Francisco",
+        "zip_code": "94131",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 874,
+        "land_name": "SCHOOL OF THE ARTS/ACADEMY OF ARTS AND SCIENCES",
+        "dropped_from_db": 0,
+        "school_type": "Grades 9-12",
+        "neighborhoods": "Diamond Heights; West Portal, Miraloma, Forest Hill, Twin Peaks ",
+        "phone": "415-695-5700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.44868001339837,
+          37.745436304170426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 21,
+        "facility_id": 955,
+        "facility_name": "June Jordan High",
+        "address": "325 La Grande Avenue",
+        "city": "San Francisco",
+        "zip_code": "94112",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 536,
+        "land_name": "Jordan High School/City Arts and Tech",
+        "dropped_from_db": 0,
+        "school_type": "Grades 9-12",
+        "neighborhoods": "Excelsior ",
+        "phone": "415-452-4922"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42526597169348,
+          37.71924543888889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 22,
+        "facility_id": 1867,
+        "facility_name": "Willie L. Brown Jr. Middle School",
+        "address": "2055 Silver Avenue",
+        "city": "San Francisco",
+        "zip_code": "94124",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 519,
+        "land_name": "Willie L. Brown Jr. Middle School",
+        "dropped_from_db": 0,
+        "school_type": "Grades 6-8",
+        "neighborhoods": "Bayview ",
+        "phone": "415-642-8901"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39893033110519,
+          37.736434018420226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 23,
+        "facility_id": 1793,
+        "facility_name": "Ulloa Elementary",
+        "address": "2650 42nd Avenue",
+        "city": "San Francisco",
+        "zip_code": "94116",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 470,
+        "land_name": "Ulloa Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Parkside ",
+        "phone": "415-759-2841"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.49940176984695,
+          37.73733528351824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 24,
+        "facility_id": 1855,
+        "facility_name": "West Portal Elementary",
+        "address": "5 Lenox Way",
+        "city": "San Francisco",
+        "zip_code": "94127",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 477,
+        "land_name": "West Portal Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "West of Twin Peaks ",
+        "phone": "415-759-2846"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46440220083856,
+          37.74282100184439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 25,
+        "facility_id": 1251,
+        "facility_name": "Paul Revere Elementary",
+        "address": "555 Tompkins Avenue",
+        "city": "San Francisco",
+        "zip_code": "94110",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 524,
+        "land_name": "Revere, Paul School/Preschool",
+        "dropped_from_db": 0,
+        "school_type": "PreK-8",
+        "neighborhoods": "Bernal Heights ",
+        "phone": "415-695-5656"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41317163412145,
+          37.73726792524579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 26,
+        "facility_id": 1887,
+        "facility_name": "Yick Wo Elementary School",
+        "address": "2245 Jones Street",
+        "city": "San Francisco",
+        "zip_code": "94133",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 387,
+        "land_name": "Yick Wo Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Russian Hill ",
+        "phone": "415-749-3540"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41660975351343,
+          37.80190453390958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 27,
+        "facility_id": 615,
+        "facility_name": "Dr William Cobb Elementary",
+        "address": "2725 California Street",
+        "city": "San Francisco",
+        "zip_code": "94115",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 424,
+        "land_name": "Cobb, Dr. William L. Elementary School/Preschool",
+        "dropped_from_db": 0,
+        "school_type": "PreK-5",
+        "neighborhoods": "Western Addition ",
+        "phone": "415-749-3505"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43963979597706,
+          37.787706780076064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 28,
+        "facility_id": 782,
+        "facility_name": "George Moscone Elementary",
+        "address": "2576 Harrison Street",
+        "city": "San Francisco",
+        "zip_code": "94110",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 490,
+        "land_name": "Moscone, George Elementary/Las Americas Early Educ",
+        "dropped_from_db": 0,
+        "school_type": "PreK-5",
+        "neighborhoods": "Mission ",
+        "phone": "415-695-5736"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41257544113199,
+          37.75700430064348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 29,
+        "facility_id": 959,
+        "facility_name": "Junipero Serra Elementary",
+        "address": "625 Holly Park Circle",
+        "city": "San Francisco",
+        "zip_code": "94110",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 528,
+        "land_name": "Serra, Junipero Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Bernal Heights ",
+        "phone": "415-695-5685"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42152474814823,
+          37.7368454697793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 30,
+        "facility_id": 1010,
+        "facility_name": "Leonard R Flynn Elementary",
+        "address": "3125 Cesar Chavez Street",
+        "city": "San Francisco",
+        "zip_code": "94110",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 523,
+        "land_name": "Flynn, Leonard Elementary/Early Education",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Bernal Heights ",
+        "phone": "415-695-5770"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41197854296506,
+          37.747742534054396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 31,
+        "facility_id": 15,
+        "facility_name": "Cesar Chavez Elementary",
+        "address": "825 Shotwell Street",
+        "city": "San Francisco",
+        "zip_code": "94110",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 492,
+        "land_name": "Chavez, Cesar Elementary School/Preschool",
+        "dropped_from_db": 0,
+        "school_type": "PreK-5",
+        "neighborhoods": "Mission ",
+        "phone": "415-695-5765"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41510528022839,
+          37.754903922749094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 32,
+        "facility_id": 1638,
+        "facility_name": "Starr King Elementary",
+        "address": "1215 Carolina Street",
+        "city": "San Francisco",
+        "zip_code": "94107",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 508,
+        "land_name": "Starr King Elementary/Preschool",
+        "dropped_from_db": 0,
+        "school_type": "PreK-5",
+        "neighborhoods": "Potrero Hill ",
+        "phone": "415-695-5797"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39922434520614,
+          37.7532434632895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 33,
+        "facility_id": 585,
+        "facility_name": "Dianne Feinstein Elementary",
+        "address": "2550 25th Avenue",
+        "city": "San Francisco",
+        "zip_code": "94116",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 469,
+        "land_name": "Feinstein, Dianne Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Parkside ",
+        "phone": "415-615-8460"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.48137961949664,
+          37.73969078186116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 34,
+        "facility_id": 957,
+        "facility_name": "Junipero Serra Annex CDC",
+        "address": "155 Appleton Avenue",
+        "city": "San Francisco",
+        "zip_code": "94110",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 759,
+        "land_name": "COLLEGE HILL RESERVOIR WATER FACILITIES",
+        "dropped_from_db": 0,
+        "school_type": "PreK/TK-5",
+        "neighborhoods": "Bernal Heights ",
+        "phone": "415-920-5138"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42261238158184,
+          37.73846319868746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 35,
+        "facility_id": 196,
+        "facility_name": "Bret Harte Elementary",
+        "address": "1035 Gilman Avenue",
+        "city": "San Francisco",
+        "zip_code": "94124",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 518,
+        "land_name": "Harte, Bret Elementary/Early Education",
+        "dropped_from_db": 0,
+        "school_type": "PreK/TK-5",
+        "neighborhoods": "Bayview ",
+        "phone": "415-330-1520"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38981687314048,
+          37.7182018051767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 36,
+        "facility_id": 1419,
+        "facility_name": "Rosa Parks Elementary / Raphael Weill CDC",
+        "address": "1501 O'Farrell Street",
+        "city": "San Francisco",
+        "zip_code": "94115",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 412,
+        "land_name": "Parks, Rosa Elementary/Weill, Raphael Early Educat",
+        "dropped_from_db": 0,
+        "school_type": "PreK-5",
+        "neighborhoods": "Western Addition ",
+        "phone": "415-749-3519"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43002475738521,
+          37.78349834765223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 37,
+        "facility_id": 1411,
+        "facility_name": "Robert Louis Stevenson Elementary",
+        "address": "2051 34th Avenue",
+        "city": "San Francisco",
+        "zip_code": "94116",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 462,
+        "land_name": "Stevenson, Robert Louis Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "TK-5",
+        "neighborhoods": "Outer Sunset ",
+        "phone": "415-759-2837"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.49276931137327,
+          37.74884935101547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 38,
+        "facility_id": 107,
+        "facility_name": "Alamo Elementary",
+        "address": "250 23rd Avenue",
+        "city": "San Francisco",
+        "zip_code": "94121",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 435,
+        "land_name": "Alamo Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Outer Richmond ",
+        "phone": "415-750-8456"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.48249283784784,
+          37.7830120755456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 39,
+        "facility_id": 754,
+        "facility_name": "Francis Scott Key Elementary",
+        "address": "1530 43rd Avenue",
+        "city": "San Francisco",
+        "zip_code": "94122",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 455,
+        "land_name": "Key, Francis Scott Elementary/Early Education",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Outer Sunset ",
+        "phone": "415-759-2811"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.50201275645794,
+          37.7581026426155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 40,
+        "facility_id": 1186,
+        "facility_name": "Noriega CDC",
+        "address": "1775 44th Avenue",
+        "city": "San Francisco",
+        "zip_code": "94122",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 460,
+        "land_name": "Noriega Early Education School",
+        "dropped_from_db": 0,
+        "school_type": "PreK/TK-5",
+        "neighborhoods": "Outer Sunset ",
+        "phone": "415-759-2853"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.50367214511199,
+          37.753854569069524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 41,
+        "facility_id": 809,
+        "facility_name": "Glen Park Elementary",
+        "address": "151 Lippard Avenue",
+        "city": "San Francisco",
+        "zip_code": "94131",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 609,
+        "land_name": "Glen Park Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Outer Mission ",
+        "phone": "415-469-4713"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4357998008697,
+          37.73310150203174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 42,
+        "facility_id": 3003,
+        "facility_name": "James Lick Middle",
+        "address": "1220 Noe Street",
+        "city": "San Francisco",
+        "zip_code": "94114",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 597,
+        "land_name": "Lick, James Middle School",
+        "dropped_from_db": 0,
+        "school_type": "Grades 6-8",
+        "neighborhoods": "Noe Valley ",
+        "phone": "415-695-5675"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43216846553821,
+          37.74954924565239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 43,
+        "facility_id": 916,
+        "facility_name": "James Denman Middle / Leadership High",
+        "address": "241 Oneida Avenue",
+        "city": "San Francisco",
+        "zip_code": "94112",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 654,
+        "land_name": "Denman Middle School/Leadership Charter High",
+        "dropped_from_db": 0,
+        "school_type": "Grades 6-8",
+        "neighborhoods": "Outer Mission ",
+        "phone": "415-469-4535"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.44327558246077,
+          37.72144378574465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 44,
+        "facility_id": 784,
+        "facility_name": "George Washington High",
+        "address": "600 32nd Avenue",
+        "city": "San Francisco",
+        "zip_code": "94121",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 888,
+        "land_name": "Washington, George High School",
+        "dropped_from_db": 0,
+        "school_type": "Grades 9-12",
+        "neighborhoods": "Outer Richmond ",
+        "phone": "415-750-8400"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.49103619978045,
+          37.77788261943854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 45,
+        "facility_id": 945,
+        "facility_name": "John Muir Elementary",
+        "address": "380 Webster Street",
+        "city": "San Francisco",
+        "zip_code": "94117",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 419,
+        "land_name": "Muir, John Elementary/Early Education",
+        "dropped_from_db": 0,
+        "school_type": "PreK-5",
+        "neighborhoods": "Western Addition ",
+        "phone": "415-241-6335"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42880043989125,
+          37.773728639598545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 46,
+        "facility_id": 469,
+        "facility_name": "Chinese Education Center",
+        "address": "657 Merchant Street",
+        "city": "San Francisco",
+        "zip_code": "94111",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 395,
+        "land_name": "Chinese Education Center Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Financial District ",
+        "phone": "415-291-7918"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40407100859053,
+          37.79477319123501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 47,
+        "facility_id": 138,
+        "facility_name": "Argonne Elementary",
+        "address": "680 18th Avenue",
+        "city": "San Francisco",
+        "zip_code": "94118",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 444,
+        "land_name": "Argonne Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Inner Richmond ",
+        "phone": "415-750-8460"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47656004031803,
+          37.77530999178111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 48,
+        "facility_id": 130,
+        "facility_name": "Aptos Middle School",
+        "address": "105 Aptos Avenue",
+        "city": "San Francisco",
+        "zip_code": "94127",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 884,
+        "land_name": "APTOS MIDDLE SCHOOL",
+        "dropped_from_db": 0,
+        "school_type": "Grades 6-8",
+        "neighborhoods": "West of Twin Peaks ",
+        "phone": "415-469-4520"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46603141148898,
+          37.72969924810027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 49,
+        "facility_id": 3225,
+        "facility_name": "Woodside Learning Center",
+        "address": "375 Woodside Ave",
+        "city": "San Francisco",
+        "zip_code": "94127",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 915,
+        "land_name": "Juvenile Justice Center",
+        "dropped_from_db": 0,
+        "school_type": "County School",
+        "neighborhoods": "",
+        "phone": "415-753-7792"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.45251835021571,
+          37.74593148015512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 50,
+        "facility_id": 113,
+        "facility_name": "Alice Fong Yu Elementary",
+        "address": "1541 12th Avenue",
+        "city": "San Francisco",
+        "zip_code": "94122",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 453,
+        "land_name": "Yu, Alice Fong Alternative School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-8",
+        "neighborhoods": "Inner Sunset ",
+        "phone": "415-759-2764"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46972465421825,
+          37.75891542250531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 51,
+        "facility_id": 490,
+        "facility_name": "Civic Center Secondary at John Swett Campus",
+        "address": "727 Golden Gate Avenue",
+        "city": "San Francisco",
+        "zip_code": "94102",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 416,
+        "land_name": "Civic Center Secondary School",
+        "dropped_from_db": 0,
+        "school_type": "County School",
+        "neighborhoods": "Civic Center ",
+        "phone": "415-241-3000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42289107401729,
+          37.78031873453292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 52,
+        "facility_id": 183,
+        "facility_name": "Bessie Carmichael / Filipino Education Ctr (6-8)",
+        "address": "824 Harrison Street",
+        "city": "San Francisco",
+        "zip_code": "94107",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 497,
+        "land_name": "Carmichael, Bessie (6-8 Campus)",
+        "dropped_from_db": 0,
+        "school_type": "PreK-8",
+        "neighborhoods": "South of Market ",
+        "phone": "415-291-7983"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40049237292521,
+          37.78055982938012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 53,
+        "facility_id": 937,
+        "facility_name": "Jefferson Elementary",
+        "address": "1725 Irving Street",
+        "city": "San Francisco",
+        "zip_code": "94122",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 896,
+        "land_name": "Jefferson Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Inner Sunset ",
+        "phone": "415-759-2821"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4768277616289,
+          37.76329886902274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 54,
+        "facility_id": 1344,
+        "facility_name": "Presidio Middle",
+        "address": "450 30th Avenue",
+        "city": "San Francisco",
+        "zip_code": "94121",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 439,
+        "land_name": "Presidio Middle School",
+        "dropped_from_db": 0,
+        "school_type": "Grades 6-8",
+        "neighborhoods": "Outer Richmond ",
+        "phone": "415-750-8435"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.48964033820317,
+          37.780869676979634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 55,
+        "facility_id": 756,
+        "facility_name": "Frank McCoppin Elementary",
+        "address": "651 6th Avenue",
+        "city": "San Francisco",
+        "zip_code": "94118",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 445,
+        "land_name": "McCoppin, Frank Elementary/Early Education",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Inner Richmond ",
+        "phone": "415-750-8475"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46424525617526,
+          37.776309619054096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 56,
+        "facility_id": 831,
+        "facility_name": "Guadalupe Elementary",
+        "address": "859 Prague Street",
+        "city": "San Francisco",
+        "zip_code": "94112",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 595,
+        "land_name": "Excelsior Guadalupe Elementary/Early Education",
+        "dropped_from_db": 0,
+        "school_type": "PreK-5",
+        "neighborhoods": "Crocker Amazon ",
+        "phone": "415-469-4718"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43451293458078,
+          37.710139499771394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 57,
+        "facility_id": 507,
+        "facility_name": "Commodore Stockton CDC",
+        "address": "1 Trenton Street",
+        "city": "San Francisco",
+        "zip_code": "94108",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 394,
+        "land_name": "Stockton, Commodore Early Education School",
+        "dropped_from_db": 0,
+        "school_type": "PreK/TK",
+        "neighborhoods": "Chinatown ",
+        "phone": "415-291-7932"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40909963022733,
+          37.79505022721128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 58,
+        "facility_id": 944,
+        "facility_name": "John McLaren CDC",
+        "address": "2055 Sunnydale Avenue",
+        "city": "San Francisco",
+        "zip_code": "94134",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 580,
+        "land_name": "McLaren, John Early Education School",
+        "dropped_from_db": 0,
+        "school_type": "PreK/TK-5",
+        "neighborhoods": "Visitacion Valley ",
+        "phone": "415-469-4519"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42319880629091,
+          37.71365605007827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 59,
+        "facility_id": 1394,
+        "facility_name": "Redding Elementary",
+        "address": "1421 Pine Street",
+        "city": "San Francisco",
+        "zip_code": "94109",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 410,
+        "land_name": "Redding Elementary/Early Education",
+        "dropped_from_db": 0,
+        "school_type": "TK-5",
+        "neighborhoods": "Nob Hill ",
+        "phone": "415-749-3525"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41925660805703,
+          37.78958249409248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 60,
+        "facility_id": 1123,
+        "facility_name": "Mission Education Center Elementary",
+        "address": "1670 Noe Street",
+        "city": "San Francisco",
+        "zip_code": "94131",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 598,
+        "land_name": "Mission Education Center Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Noe Valley ",
+        "phone": "415-695-5313"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43144905513283,
+          37.742209039883335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 61,
+        "facility_id": 1694,
+        "facility_name": "Sutro Elementary",
+        "address": "235 12th Avenue",
+        "city": "San Francisco",
+        "zip_code": "94118",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 437,
+        "land_name": "Sutro Elementary/Early Education",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Inner Richmond ",
+        "phone": "415-750-8525"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4714648310608,
+          37.78360838249526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 62,
+        "facility_id": 1057,
+        "facility_name": "Marina Middle",
+        "address": "3500 Fillmore Street",
+        "city": "San Francisco",
+        "zip_code": "94123",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 399,
+        "land_name": "Marina Middle School",
+        "dropped_from_db": 0,
+        "school_type": "Grades 6-8",
+        "neighborhoods": "Marina ",
+        "phone": "415-749-3495"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43606008682495,
+          37.80168488054306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 63,
+        "facility_id": 1584,
+        "facility_name": "Sheridan Elementary",
+        "address": "431 Capitol Avenue",
+        "city": "San Francisco",
+        "zip_code": "94112",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 771,
+        "land_name": "Sheridan Elementary School/Preschool",
+        "dropped_from_db": 0,
+        "school_type": "PreK/TK-5",
+        "neighborhoods": "Ocean View ",
+        "phone": "415-469-4743"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.45964262912094,
+          37.714480923348525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 64,
+        "facility_id": 1825,
+        "facility_name": "Visitacion Valley Middle",
+        "address": "450 Raymond Avenue",
+        "city": "San Francisco",
+        "zip_code": "94134",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 780,
+        "land_name": "Visitacion Valley Middle School",
+        "dropped_from_db": 0,
+        "school_type": "Grades 6-8",
+        "neighborhoods": "Visitacion Valley ",
+        "phone": "415-469-4590"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41242097312396,
+          37.71565650456816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 65,
+        "facility_id": 1001,
+        "facility_name": "Lawton Elementary",
+        "address": "1570 31st Avenue",
+        "city": "San Francisco",
+        "zip_code": "94122",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 454,
+        "land_name": "Lawton Alternative School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-8",
+        "neighborhoods": "Outer Sunset ",
+        "phone": "415-759-2832"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.48911146585944,
+          37.758055701221224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 66,
+        "facility_id": 2062,
+        "facility_name": "New Traditions Elementary",
+        "address": "2049 Grove Street",
+        "city": "San Francisco",
+        "zip_code": "94117",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 429,
+        "land_name": "New Traditions Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Haight Ashbury ",
+        "phone": "415-750-8490"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.45028011773526,
+          37.773890369948326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 67,
+        "facility_id": 1076,
+        "facility_name": "McKinley Elementary",
+        "address": "1025 14th Street",
+        "city": "San Francisco",
+        "zip_code": "94114",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 471,
+        "land_name": "McKinley Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Castro/Upper Market ",
+        "phone": "415-241-6300"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43646807018595,
+          37.766976785876835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 68,
+        "facility_id": 767,
+        "facility_name": "Garfield Elementary",
+        "address": "420 Filbert Street",
+        "city": "San Francisco",
+        "zip_code": "94133",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 388,
+        "land_name": "Garfield Elementary/Early Education",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "North Beach ",
+        "phone": "415-291-7924"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40654524017424,
+          37.801939983653966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 69,
+        "facility_id": 773,
+        "facility_name": "Gateway Middle",
+        "address": "1512 Golden Gate Avenue",
+        "city": "San Francisco",
+        "zip_code": "94115",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 414,
+        "land_name": "Creative Arts Charter School",
+        "dropped_from_db": 0,
+        "school_type": "Charter School",
+        "neighborhoods": "Western Addition ",
+        "phone": "415-922-1001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43594039709313,
+          37.779351516483715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 70,
+        "facility_id": 895,
+        "facility_name": "Independence High School",
+        "address": "1350 7th Avenue",
+        "city": "San Francisco",
+        "zip_code": "94122",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 449,
+        "land_name": "Independence High School",
+        "dropped_from_db": 0,
+        "school_type": "Grades 9-12",
+        "neighborhoods": "Inner Sunset ",
+        "phone": "415-242-5000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46386486187328,
+          37.76322375669096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 71,
+        "facility_id": 935,
+        "facility_name": "Jean Parker Elementary",
+        "address": "840 Broadway Street",
+        "city": "San Francisco",
+        "zip_code": "94133",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 392,
+        "land_name": "Parker, Jean Elementary/Early Education",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Russian Hill ",
+        "phone": "415-291-7990"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4110663361334,
+          37.7976481788309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 72,
+        "facility_id": 650,
+        "facility_name": "Everett Middle",
+        "address": "450 Church Street",
+        "city": "San Francisco",
+        "zip_code": "94114",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 891,
+        "land_name": "Everett Middle School",
+        "dropped_from_db": 0,
+        "school_type": "Grades 6-8",
+        "neighborhoods": "Castro/Upper Market ",
+        "phone": "415-241-6344"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42899053957504,
+          37.76361804374038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 73,
+        "facility_id": 613,
+        "facility_name": "Dr George Washington Carver Elementary",
+        "address": "1360 Oakdale Avenue",
+        "city": "San Francisco",
+        "zip_code": "94124",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 583,
+        "land_name": "Carver, Dr. George Washington Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Bayview ",
+        "phone": "415-330-1540"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38558362524614,
+          37.73184765249497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 74,
+        "facility_id": 1416,
+        "facility_name": "Rooftop Alternative (5-8 Mayeda Campus)",
+        "address": "500 Corbett Avenue",
+        "city": "San Francisco",
+        "zip_code": "94114",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 475,
+        "land_name": "Rooftop (5-8 Mayeda Campus)",
+        "dropped_from_db": 0,
+        "school_type": "PreK-8",
+        "neighborhoods": "Twin Peaks ",
+        "phone": "415-522-6757"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.44450284642889,
+          37.75741324493294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 75,
+        "facility_id": 1031,
+        "facility_name": "Lowell High",
+        "address": "1101 Eucalyptus Drive",
+        "city": "San Francisco",
+        "zip_code": "94132",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 865,
+        "land_name": "LOWELL HIGH SCHOOL",
+        "dropped_from_db": 0,
+        "school_type": "Grades 9-12",
+        "neighborhoods": "Lakeshore ",
+        "phone": "415-759-2730"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.48341522708327,
+          37.73062846496464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 76,
+        "facility_id": 88,
+        "facility_name": "A P Giannini Middle",
+        "address": "3151 Ortega Street",
+        "city": "San Francisco",
+        "zip_code": "94116",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 875,
+        "land_name": "Giannini, A. P. Middle School",
+        "dropped_from_db": 0,
+        "school_type": "Grades 6-8",
+        "neighborhoods": "Outer Sunset ",
+        "phone": "415-759-2770"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.49722742554953,
+          37.75062085317313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 77,
+        "facility_id": 1009,
+        "facility_name": "Leola M Havard Early Education",
+        "address": "1520 Oakdale Avenue",
+        "city": "San Francisco",
+        "zip_code": "94124",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 877,
+        "land_name": "Havard, Leola M. Early Education School",
+        "dropped_from_db": 0,
+        "school_type": "PreK/TK-5",
+        "neighborhoods": "Bayview ",
+        "phone": "415-695-5660"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3888288709567,
+          37.734055083425886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 78,
+        "facility_id": 819,
+        "facility_name": "Gordon J Lau Elementary",
+        "address": "950 Clay Street",
+        "city": "San Francisco",
+        "zip_code": "94108",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 397,
+        "land_name": "Lau, Gordon J. Elementary/Preschool",
+        "dropped_from_db": 0,
+        "school_type": "PreK-5",
+        "neighborhoods": "Chinatown ",
+        "phone": "415-291-7921"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.408938291904,
+          37.79408348377101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 79,
+        "facility_id": 3010,
+        "facility_name": "Mission High",
+        "address": "3750 18th Street",
+        "city": "San Francisco",
+        "zip_code": "94114",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 488,
+        "land_name": "Mission High School",
+        "dropped_from_db": 0,
+        "school_type": "Grades 9-12",
+        "neighborhoods": "Castro/Upper Market ",
+        "phone": "415-241-6240"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42712589037012,
+          37.761779241265344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 80,
+        "facility_id": 1443,
+        "facility_name": "San Miguel CDC",
+        "address": "300 Seneca Avenue",
+        "city": "San Francisco",
+        "zip_code": "94112",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 657,
+        "land_name": "Leadership Charter/San Miguel EES",
+        "dropped_from_db": 0,
+        "school_type": "PreK",
+        "neighborhoods": "Ingleside ",
+        "phone": "415-469-4756"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.44487122935725,
+          37.72149627142829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 81,
+        "facility_id": 946,
+        "facility_name": "John O'Connell High",
+        "address": "2355 Folsom Street",
+        "city": "San Francisco",
+        "zip_code": "94110",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 233,
+        "land_name": "O'Connell, John High School",
+        "dropped_from_db": 0,
+        "school_type": "Grades 9-12",
+        "neighborhoods": "Mission ",
+        "phone": "415-695-5370"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41422805109895,
+          37.75952213076804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 82,
+        "facility_id": 1026,
+        "facility_name": "Longfellow Elementary",
+        "address": "755 Morse Street",
+        "city": "San Francisco",
+        "zip_code": "94112",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 886,
+        "land_name": "Longfellow Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Crocker Amazon ",
+        "phone": "415-469-4730"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.44713937573664,
+          37.710239754056694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 83,
+        "facility_id": 772,
+        "facility_name": "Gateway High / KIPP San Francisco Bay Academy",
+        "address": "1430 Scott Street",
+        "city": "San Francisco",
+        "zip_code": "94115",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 411,
+        "land_name": "Gateway High School/KIPP SF Bay Academy",
+        "dropped_from_db": 0,
+        "school_type": "Charter School",
+        "neighborhoods": "Western Addition ",
+        "phone": "415-749-3600"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43751020035718,
+          37.78315595042791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 84,
+        "facility_id": 1772,
+        "facility_name": "Thurgood Marshall High",
+        "address": "45 Conkling Street",
+        "city": "San Francisco",
+        "zip_code": "94124",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 520,
+        "land_name": "Marshall, Thurgood High School",
+        "dropped_from_db": 0,
+        "school_type": "Grades 9-12",
+        "neighborhoods": "Bayview ",
+        "phone": "415-695-5612"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40147829820404,
+          37.735736477011315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 85,
+        "facility_id": 202,
+        "facility_name": "Bryant Elementary and CDC",
+        "address": "2641 25th Street",
+        "city": "San Francisco",
+        "zip_code": "94110",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 510,
+        "land_name": "Bryant Early Education/Bryant Elementary",
+        "dropped_from_db": 0,
+        "school_type": "PreK-5",
+        "neighborhoods": "Mission ",
+        "phone": "415-695-5780"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40483276198518,
+          37.75158549940025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 86,
+        "facility_id": 1748,
+        "facility_name": "Tenderloin Elementary",
+        "address": "627 Turk Street",
+        "city": "San Francisco",
+        "zip_code": "94102",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 901,
+        "land_name": "Tenderloin Elementary/Early Education",
+        "dropped_from_db": 0,
+        "school_type": "PreK/TK-5",
+        "neighborhoods": "Downtown/Civic Center ",
+        "phone": "415-749-3567"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41996373400093,
+          37.78185944906435
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 87,
+        "facility_id": 1063,
+        "facility_name": "Marshall Elementary",
+        "address": "1575 15th Street",
+        "city": "San Francisco",
+        "zip_code": "94103",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 486,
+        "land_name": "Marshall Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Mission ",
+        "phone": "415-241-6280"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41902068710722,
+          37.766460174130955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 88,
+        "facility_id": 3000,
+        "facility_name": "Claire Lilienthal (K-2 Madison Campus)",
+        "address": "3950 Sacramento Street",
+        "city": "San Francisco",
+        "zip_code": "94118",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 423,
+        "land_name": "Lilienthal, Claire (K-2 Madison Campus)",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-8",
+        "neighborhoods": "Inner Richmond ",
+        "phone": "415-750-8603"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.45808062592849,
+          37.78723049457212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 89,
+        "facility_id": 3012,
+        "facility_name": "Philip & Sala Burton High",
+        "address": "400 Mansell Street",
+        "city": "San Francisco",
+        "zip_code": "94134",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 539,
+        "land_name": "Burton, Phillip and Sala High School",
+        "dropped_from_db": 0,
+        "school_type": "Grades 9-12",
+        "neighborhoods": "Portola District ",
+        "phone": "415-469-4550"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40656547292937,
+          37.72155021869978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 90,
+        "facility_id": 1136,
+        "facility_name": "Monroe Elementary",
+        "address": "260 Madrid Street",
+        "city": "San Francisco",
+        "zip_code": "94112",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 531,
+        "land_name": "Monroe Elementary/Excelsior Monroe Early Education",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Excelsior ",
+        "phone": "415-469-4736"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43048970651166,
+          37.72564742907405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 91,
+        "facility_id": 1479,
+        "facility_name": "SF Community School",
+        "address": "125 Excelsior Avenue",
+        "city": "San Francisco",
+        "zip_code": "94112",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 535,
+        "land_name": "S.F. COMMUNITY SCHOOL",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-8",
+        "neighborhoods": "Excelsior ",
+        "phone": "415-469-4739"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43228045850469,
+          37.72593046008494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 92,
+        "facility_id": 1444,
+        "facility_name": "Sanchez Elementary",
+        "address": "325 Sanchez Street",
+        "city": "San Francisco",
+        "zip_code": "94114",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 890,
+        "land_name": "Sanchez Elementary School/Preschool",
+        "dropped_from_db": 0,
+        "school_type": "PreK-5",
+        "neighborhoods": "Castro/Upper Market ",
+        "phone": "415-241-6380"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43051324327041,
+          37.763465015940056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 93,
+        "facility_id": 153,
+        "facility_name": "Balboa High",
+        "address": "1000 Cayuga Avenue",
+        "city": "San Francisco",
+        "zip_code": "94112",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 653,
+        "land_name": "Balboa High School",
+        "dropped_from_db": 0,
+        "school_type": "Grades 9-12",
+        "neighborhoods": "Excelsior ",
+        "phone": "415-469-4090"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4408135760498,
+          37.72217565373217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 94,
+        "facility_id": 1048,
+        "facility_name": "Malcolm X Elementary",
+        "address": "350 Harbor Road",
+        "city": "San Francisco",
+        "zip_code": "94124",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 282,
+        "land_name": "Malcolm X Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "PreK-5",
+        "neighborhoods": "Bayview ",
+        "phone": "415-695-5950"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.38096690811658,
+          37.73415915309389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 95,
+        "facility_id": 90,
+        "facility_name": "Abraham Lincoln High",
+        "address": "2162 24th Avenue",
+        "city": "San Francisco",
+        "zip_code": "94116",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 897,
+        "land_name": "Lincoln, Abraham High School",
+        "dropped_from_db": 0,
+        "school_type": "Grades 9-12",
+        "neighborhoods": "Parkside/Sunset ",
+        "phone": "415-759-2700"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.48110723053955,
+          37.747290791727316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 96,
+        "facility_id": 575,
+        "facility_name": "Daniel Webster Elementary",
+        "address": "465 Missouri Street",
+        "city": "San Francisco",
+        "zip_code": "94107",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 501,
+        "land_name": "Webster, Daniel Elementary/Early Education",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Potrero Hill ",
+        "phone": "415-695-5787"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39598980202385,
+          37.760398735372064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 97,
+        "facility_id": 1589,
+        "facility_name": "Sherman Elementary",
+        "address": "1651 Union Street",
+        "city": "San Francisco",
+        "zip_code": "94123",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 402,
+        "land_name": "Sherman Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Marina ",
+        "phone": "415-749-3530"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42613118585601,
+          37.79780653910092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 98,
+        "facility_id": 498,
+        "facility_name": "Clarendon Elementary",
+        "address": "500 Clarendon Avenue",
+        "city": "San Francisco",
+        "zip_code": "94131",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 472,
+        "land_name": "Clarendon Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Inner Sunset ",
+        "phone": "415-759-2796"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.45633643361666,
+          37.753762255489995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 99,
+        "facility_id": 869,
+        "facility_name": "Hilltop County Community High / Sunshine Building",
+        "address": "1325 Florida St",
+        "city": "San Francisco",
+        "zip_code": "94110",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 509,
+        "land_name": "Hilltop Special Services Center",
+        "dropped_from_db": 0,
+        "school_type": "County School",
+        "neighborhoods": "",
+        "phone": "415-695-5606"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40940976459603,
+          37.75043742673387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 100,
+        "facility_id": 184,
+        "facility_name": "Bessie Carmichael Elementary",
+        "address": "375 7th Street",
+        "city": "San Francisco",
+        "zip_code": "94103",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 885,
+        "land_name": "Carmichael, Bessie K-5 Campus/Early Education",
+        "dropped_from_db": 0,
+        "school_type": "PreK-8",
+        "neighborhoods": "South of Market ",
+        "phone": "415-615-8441"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40670121645364,
+          37.77610952143157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 101,
+        "facility_id": 136,
+        "facility_name": "Argonne CDC",
+        "address": "750 16th Avenue",
+        "city": "San Francisco",
+        "zip_code": "94118",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 448,
+        "land_name": "Argonne Early Education School",
+        "dropped_from_db": 0,
+        "school_type": "PreK/TK",
+        "neighborhoods": "Inner Richmond ",
+        "phone": "415-750-8617"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47407018613323,
+          37.77397445084483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 102,
+        "facility_id": 594,
+        "facility_name": "Downtown High",
+        "address": "693 Vermont Street",
+        "city": "San Francisco",
+        "zip_code": "94107",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 498,
+        "land_name": "Downtown High School",
+        "dropped_from_db": 0,
+        "school_type": "Grades 9-12",
+        "neighborhoods": "Downtown ",
+        "phone": "415-695-5860"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40388866585923,
+          37.76136824951827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 103,
+        "facility_id": 500,
+        "facility_name": "Cleveland Elementary",
+        "address": "455 Athens Street",
+        "city": "San Francisco",
+        "zip_code": "94112",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 537,
+        "land_name": "Cleveland Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Excelsior ",
+        "phone": "415-469-4709"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42889329514888,
+          37.720635105022126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 104,
+        "facility_id": 671,
+        "facility_name": "Fairmount Elementary",
+        "address": "65 Chenery Street",
+        "city": "San Francisco",
+        "zip_code": "94131",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 603,
+        "land_name": "Fairmount Elementary School/Preschool",
+        "dropped_from_db": 0,
+        "school_type": "PreK-5",
+        "neighborhoods": "Glen Park ",
+        "phone": "415-695-5669"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4250222003664,
+          37.7404645169344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 105,
+        "facility_id": 860,
+        "facility_name": "Herbert Hoover Middle",
+        "address": "2290 14th Avenue",
+        "city": "San Francisco",
+        "zip_code": "94116",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 463,
+        "land_name": "Hoover, Herbert Middle School",
+        "dropped_from_db": 0,
+        "school_type": "Grades 6-8",
+        "neighborhoods": "West of Twin Peaks ",
+        "phone": "415-759-2783"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.46883923784334,
+          37.74574878935876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 106,
+        "facility_id": 470,
+        "facility_name": "Chinese Immersion Elementary at DeAvila",
+        "address": "1250 Waller Street",
+        "city": "San Francisco",
+        "zip_code": "94117",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 431,
+        "land_name": "Chinese Immersion School at DeAvila",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Haight Ashbury ",
+        "phone": "415-241-6325"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.44436169953818,
+          37.769738913167835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 107,
+        "facility_id": 783,
+        "facility_name": "George Peabody Elementary",
+        "address": "251 6th Avenue",
+        "city": "San Francisco",
+        "zip_code": "94118",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 438,
+        "land_name": "Peabody, George Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Inner Richmond ",
+        "phone": "415-750-8480"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4650378361572,
+          37.783859408940444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 108,
+        "facility_id": 1678,
+        "facility_name": "Sunnyside Elementary",
+        "address": "250 Foerster Street",
+        "city": "San Francisco",
+        "zip_code": "94112",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 483,
+        "land_name": "Sunnyside Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Outer Mission ",
+        "phone": "415-469-4746"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.44824684037847,
+          37.730292777824246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 109,
+        "facility_id": 982,
+        "facility_name": "Lafayette Elementary",
+        "address": "4545 Anza Street",
+        "city": "San Francisco",
+        "zip_code": "94121",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 440,
+        "land_name": "Lafayette Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Outer Richmond ",
+        "phone": "415-750-8483"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.49688930326987,
+          37.777061034175105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 110,
+        "facility_id": 1417,
+        "facility_name": "Rooftop Alternative (K-4 Burnett Campus)",
+        "address": "443 Burnett Street",
+        "city": "San Francisco",
+        "zip_code": "94131",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 876,
+        "land_name": "Rooftop (K-4 Burnett Campus)",
+        "dropped_from_db": 0,
+        "school_type": "PreK-8",
+        "neighborhoods": "Twin Peaks ",
+        "phone": "415-695-5691"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.44393014079085,
+          37.75500015046035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 111,
+        "facility_id": 1890,
+        "facility_name": "Zaida T Rodriguez Early Education",
+        "address": "421 Bartlett Street",
+        "city": "San Francisco",
+        "zip_code": "94110",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 596,
+        "land_name": "Rodriguez School/Mission CDC",
+        "dropped_from_db": 0,
+        "school_type": "PreK/TK",
+        "neighborhoods": "Mission ",
+        "phone": "415-695-5844"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41918439249133,
+          37.75015320946468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 112,
+        "facility_id": 947,
+        "facility_name": "John Yehall Chin Elementary",
+        "address": "350 Broadway (temporary address for the 2016-17 sc",
+        "city": "San Francisco",
+        "zip_code": "94133",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 391,
+        "land_name": "Chin, John Yehall Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "North Beach ",
+        "phone": "415-291-7946"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40323069213444,
+          37.79861594106657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 113,
+        "facility_id": 997,
+        "facility_name": "Lakeshore Elementary",
+        "address": "220 Middlefield Drive",
+        "city": "San Francisco",
+        "zip_code": "94132",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 638,
+        "land_name": "Lakeshore Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Lakeshore ",
+        "phone": "415-759-2825"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.48602179398304,
+          37.73005562995147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 114,
+        "facility_id": 1566,
+        "facility_name": "Administration Offices - SFUSD",
+        "address": "555 Franklin St",
+        "city": "San Francisco",
+        "zip_code": "94102",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 899,
+        "land_name": "Administration Offices - SFUSD",
+        "dropped_from_db": 0,
+        "school_type": "Admin Building",
+        "neighborhoods": null,
+        "phone": "415-241-6000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42234280435162,
+          37.779295355642404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 115,
+        "facility_id": 3298,
+        "facility_name": "Life Learning Academy High School",
+        "address": "651 8th Street Building 229",
+        "city": "San Francisco",
+        "zip_code": "94130",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 920,
+        "land_name": "Life Learning Academy Charter School",
+        "dropped_from_db": 0,
+        "school_type": "Charter School",
+        "neighborhoods": "Treasure Island/YBI ",
+        "phone": "415-397-8957"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.36908731191488,
+          37.824929576978285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 116,
+        "facility_id": 749,
+        "facility_name": "KIPP San Francisco College Preparatory",
+        "address": "1195 Hudson Avenue",
+        "city": "San Francisco",
+        "zip_code": "94124",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 514,
+        "land_name": "Metropolitan Arts and Tech",
+        "dropped_from_db": 0,
+        "school_type": "Charter School",
+        "neighborhoods": "Bayview ",
+        "phone": "415-643-6951"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3822546457713,
+          37.732126827588814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 117,
+        "facility_id": 3317,
+        "facility_name": "Las Americas Early Education",
+        "address": "801 Treat Avenue",
+        "city": "San Francisco",
+        "zip_code": "94110",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 490,
+        "land_name": "Moscone, George Elementary/Las Americas Early Educ",
+        "dropped_from_db": 0,
+        "school_type": "PreK-5",
+        "neighborhoods": "Mission ",
+        "phone": "415- 695-5746"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41326072903134,
+          37.75712740248734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 118,
+        "facility_id": 3318,
+        "facility_name": "Leadership Charter High School",
+        "address": "350 Seneca Avenue",
+        "city": "San Francisco",
+        "zip_code": "94112",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 657,
+        "land_name": "Leadership Charter/San Miguel EES",
+        "dropped_from_db": 0,
+        "school_type": "Charter School",
+        "neighborhoods": "Outer Mission ",
+        "phone": "415-841-8910"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.44527424413641,
+          37.72167876911542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 119,
+        "facility_id": 627,
+        "facility_name": "Edison Charter Academy Elementary",
+        "address": "3531 22nd Street",
+        "city": "San Francisco",
+        "zip_code": "94114",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 459,
+        "land_name": "Edison Charter K-8",
+        "dropped_from_db": 0,
+        "school_type": "Charter School",
+        "neighborhoods": "Noe Valley ",
+        "phone": "415-970-3330"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42627892368596,
+          37.75444118407885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 120,
+        "facility_id": 822,
+        "facility_name": "Grattan Elementary",
+        "address": "165 Grattan Street",
+        "city": "San Francisco",
+        "zip_code": "94117",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 432,
+        "land_name": "Grattan Elementary/Early Education",
+        "dropped_from_db": 0,
+        "school_type": "PreK-5",
+        "neighborhoods": "Haight Ashbury ",
+        "phone": "415-759-2815"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.45046191968078,
+          37.76370260715166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 121,
+        "facility_id": 1824,
+        "facility_name": "Visitacion Valley Elementary",
+        "address": "55 Schwerin Street",
+        "city": "San Francisco",
+        "zip_code": "94134",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 576,
+        "land_name": "Visitacion Valley Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Visitacion Valley ",
+        "phone": "415-469-4796"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.41028818309493,
+          37.712529940877815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 122,
+        "facility_id": 3320,
+        "facility_name": "The Academy - San Francisco @ McAteer",
+        "address": "555 Portola Drive",
+        "city": "San Francisco",
+        "zip_code": "94131",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 874,
+        "land_name": "SCHOOL OF THE ARTS/ACADEMY OF ARTS AND SCIENCES",
+        "dropped_from_db": 0,
+        "school_type": "Grades 9-12",
+        "neighborhoods": "Diamond Heights, Glen Park, Portola ",
+        "phone": "415-695-5701"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.44949787197238,
+          37.745163416715904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 123,
+        "facility_id": 3321,
+        "facility_name": "KIPP San Francisco Bay Academy",
+        "address": "1430 Scott Street",
+        "city": "San Francisco",
+        "zip_code": "94115",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 411,
+        "land_name": "Gateway High School/KIPP SF Bay Academy",
+        "dropped_from_db": 0,
+        "school_type": "Charter School",
+        "neighborhoods": "Western Addition ",
+        "phone": "415-440-4306"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43747969806171,
+          37.7830034926992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 124,
+        "facility_id": 3322,
+        "facility_name": "City Arts and Tech High",
+        "address": "325 La Grande Avenue",
+        "city": "San Francisco",
+        "zip_code": "94112",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 536,
+        "land_name": "Jordan High School/City Arts and Tech",
+        "dropped_from_db": 0,
+        "school_type": "Charter School",
+        "neighborhoods": "Visitacion Valley ",
+        "phone": "415-841-2200"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.425120782384,
+          37.71889080493606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 125,
+        "facility_id": 3323,
+        "facility_name": "Log Cabin Ranch County School",
+        "address": "PO BOX 329",
+        "city": "La Honda",
+        "zip_code": "94020",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 921,
+        "land_name": "HIDDEN VALLEY/LOG CABIN RANCH",
+        "dropped_from_db": 0,
+        "school_type": "County School",
+        "neighborhoods": "",
+        "phone": "415-241-6553"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.25687144647227,
+          37.30485594073663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 126,
+        "facility_id": 1683,
+        "facility_name": "Sunset Elementary",
+        "address": "1920 41st Avenue",
+        "city": "San Francisco",
+        "zip_code": "94116",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 887,
+        "land_name": "SUNSET ELEMENTARY SCHOOL",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Outer Sunset ",
+        "phone": "415-759-2760"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.49953600959147,
+          37.75059810921146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 127,
+        "facility_id": 1418,
+        "facility_name": "Roosevelt Middle",
+        "address": "460 Arguello Boulevard",
+        "city": "San Francisco",
+        "zip_code": "94118",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 425,
+        "land_name": "Roosevelt, Theodore Middle School",
+        "dropped_from_db": 0,
+        "school_type": "Grades 6-8",
+        "neighborhoods": "Presidio Heights ",
+        "phone": "415-750-8446"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.45836937051196,
+          37.782290230467886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 128,
+        "facility_id": 868,
+        "facility_name": "Hillcrest Elementary",
+        "address": "810 Silver Avenue",
+        "city": "San Francisco",
+        "zip_code": "94134",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 529,
+        "land_name": "Hillcrest Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Excelsior ",
+        "phone": "415-469-4722"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4188754654584,
+          37.7288272518368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 129,
+        "facility_id": 624,
+        "facility_name": "E R Taylor Elementary",
+        "address": "423 Burrows Street",
+        "city": "San Francisco",
+        "zip_code": "94134",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 530,
+        "land_name": "Taylor, E. R. Elementary School/Preschool",
+        "dropped_from_db": 0,
+        "school_type": "PreK-5",
+        "neighborhoods": "Excelsior ",
+        "phone": "415-330-1530"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40747903172554,
+          37.72768468993441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 130,
+        "facility_id": 639,
+        "facility_name": "Tule Elk Park CDC",
+        "address": "2110 Greenwich Street",
+        "city": "San Francisco",
+        "zip_code": "94123",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 400,
+        "land_name": "Tule Elk Park Early Education School",
+        "dropped_from_db": 0,
+        "school_type": "PreK/TK",
+        "neighborhoods": "Marina District ",
+        "phone": "415-749-3551"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.43457470184141,
+          37.79936821613094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 131,
+        "facility_id": 629,
+        "facility_name": "El Dorado Elementary",
+        "address": "70 Delta Street",
+        "city": "San Francisco",
+        "zip_code": "94134",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 385,
+        "land_name": "El Dorado Elementary School",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-5",
+        "neighborhoods": "Visitacion Valley ",
+        "phone": "415-330-1537"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40730928067958,
+          37.71842692303175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 132,
+        "facility_id": 204,
+        "facility_name": "Buena Vista / Horace Mann",
+        "address": "3351 23rd Street",
+        "city": "San Francisco",
+        "zip_code": "94110",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 493,
+        "land_name": "Buena Vista/Horace Mann",
+        "dropped_from_db": 0,
+        "school_type": "Grades K-8",
+        "neighborhoods": "Mission ",
+        "phone": "415-695-5881"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42031026181672,
+          37.753077793435935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 133,
+        "facility_id": 612,
+        "facility_name": "Dr Charles R Drew Elementary",
+        "address": "50 Pomona Avenue",
+        "city": "San Francisco",
+        "zip_code": "94124",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 521,
+        "land_name": "Drew, Dr. Charles R. Elementary/Early Education",
+        "dropped_from_db": 0,
+        "school_type": "PreK-5",
+        "neighborhoods": "Bayview ",
+        "phone": "415-330-1526"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3940085847327,
+          37.73132701504901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 134,
+        "facility_id": 764,
+        "facility_name": "Galileo High",
+        "address": "1150 Francisco Street",
+        "city": "San Francisco",
+        "zip_code": "94109",
+        "owned_leased": "Own",
+        "dept_id": 16,
+        "department_name": "School District (SFUSD)",
+        "land_id": 398,
+        "land_name": "Galileo High School",
+        "dropped_from_db": 0,
+        "school_type": "Grades 9-12",
+        "neighborhoods": "Russian Hill ",
+        "phone": "415-749-3430"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42449248809787,
+          37.80375329232515
+        ]
+      }
+    }
+  ]
+}
