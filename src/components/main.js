@@ -9,11 +9,12 @@ import Button from '@mapbox/mr-ui/button';
 import remark from 'remark';
 import reactRenderer from 'remark-react';
 import { stringify } from 'querystring';
+import { printMap } from '../util/print-map';
 
 class Main extends React.Component {
   constructor(props) {
     super(props);
-
+    
     this.state = {
       docTitleText: 'Title goes here',
       docBodyText: `
@@ -113,6 +114,10 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
     });
   };
 
+  returnMap = map => {
+    this.setState({mapObj: map});
+  }
+
   renderMap = () => {
     return (
       <MapContainer
@@ -121,9 +126,15 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
         hasIsochrone={this.state.hasIsochrone}
         styleUrl={this.state.styleUrl}
         onMove={this.updateFromMap}
+        mapDivId="map"
+        returnMap={this.returnMap}
       />
     );
   };
+
+  exportMap = () => {
+    printMap({map: this.state.mapObj});
+  }
 
   render() {
     const { props, state } = this;
@@ -223,6 +234,9 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
             <div className="my24">
               <Button onClick={this.updateMapFromForm} variant="secondary">
                 Update map
+              </Button>
+              <Button onClick={this.exportMap} variant="secondary">
+                Export map
               </Button>
             </div>
           </div>

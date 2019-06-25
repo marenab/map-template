@@ -25,9 +25,11 @@
   "dependencies": {
     "@mapbox/mapbox-sdk": "^0.6.0",
     "@mapbox/mr-ui": "^0.7.1",
+    "file-saver": "^2.0.2",
     "ky": "^0.11.1",
     "lodash": "^4.17.11",
     "mapbox-gl": "^1.0.0",
+    "merge-images": "^1.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "remark": "^10.0.1",

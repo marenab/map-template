@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./src/custom-css.css"],"names":[],"mappings":"AAAA;EACE;IACE,yBAAyB;GAC1B","file":"underreact-assets/css/main-6f1f0ec7.chunk.css","sourcesContent":["@media print {\n  #menuArea {\n    display: none !important;\n  }\n}"],"sourceRoot":""}

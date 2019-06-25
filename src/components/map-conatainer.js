@@ -16,11 +16,12 @@ export default class MapContainer extends React.PureComponent {
     mapboxAccessToken: PropTypes.string,
     styleUrl: PropTypes.string.isRequired,
     mapContainerStyle: PropTypes.object,
-    onMove: PropTypes.func
+    onMove: PropTypes.func,
+    mapDivId: PropTypes.string.isRequired
   }
 
   static defaultProps = {
-    mapboxAccessToken: process.env.MAPBOX_ACCESS_TOKEN,
+    mapboxAccessToken: "pk.eyJ1Ijoic2FmZS1yb3V0ZXMtdG8tc2Nob29sIiwiYSI6ImNqeGFxeTlkcjE5OXYzdHFicGcyNXFxNjAifQ.-2qdb6JZxOH549ZTzS_M_w",
     mapContainerStyle: {
       position: 'relative',
       width: '100%',
@@ -75,6 +76,7 @@ export default class MapContainer extends React.PureComponent {
         });
       }
 
+      this.props.returnMap(this.map);
     });
 
     this.map.on('moveend', e => {
@@ -122,6 +124,6 @@ export default class MapContainer extends React.PureComponent {
   }
 
   render() {
-    return <div style={this.props.mapContainerStyle} ref={this.mapContainer}></div>
+    return <div id={this.props.mapDivId} style={this.props.mapContainerStyle} ref={this.mapContainer}></div>
   }
 }

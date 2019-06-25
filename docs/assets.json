@@ -1,0 +1,22 @@
+{
+  "main": {
+    "js": "/map-template/underreact-assets/js/main.chunk.js"
+  },
+  "polyfill": {
+    "js": "/map-template/underreact-assets/js/polyfill.chunk.js"
+  },
+  "vendor": {
+    "js": "/map-template/underreact-assets/js/vendor.chunk.js"
+  },
+  "": {
+    "html": "/map-template/index.html",
+    "png": [
+      "/map-template/underreact-assets/media/attribution.60fdefcf.png",
+      "/map-template/underreact-assets/media/mapbox-logo-color.5ea222f8.png"
+    ],
+    "json": [
+      "/map-template/a36236af7ee4b2885834.hot-update.json",
+      "/map-template/a379239d720b729eae3d.hot-update.json"
+    ]
+  }
+}
