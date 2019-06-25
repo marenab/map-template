@@ -30,7 +30,7 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
 
 ## Heading two`,
       styleUrl: 'mapbox://styles/safe-routes-to-school/cjxc315vp53xs1cl4m5qi3y31',
-      hasIsochrone: false,
+      hasIsochrone: true,
       zoom: 11.35,
       center: [-122.4345, 37.7802],
       showTransitLayers: true,
@@ -204,19 +204,6 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
                 label="Transit stations and lines"
                 onChange={this.onToggleTransitLayers}
                 value = {this.state.showTransitLayers}
-            />
-            <ControlCheckboxSet
-              id="isochrone-toggle"
-              themeCheckboxContainer="py24"
-              onChange={() =>
-                this.setState({ hasIsochrone: !this.state.hasIsochrone })
-              }
-              options={[
-                {
-                  label: 'Display 10-minute walking isochrone?',
-                  value: 'display-isochrone'
-                }
-              ]}
             />
             <div className="my24">
               <Button onClick={this.exportMap} variant="secondary">
