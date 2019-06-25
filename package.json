@@ -1,0 +1,36 @@
+{
+  "name": "map-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "underreact start",
+    "build": "underreact build",
+    "serve-static": "underreact serve-static"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danswick/map-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danswick/map-template/issues"
+  },
+  "homepage": "https://github.com/danswick/map-template#readme",
+  "devDependencies": {
+    "@mapbox/underreact": "^0.5.1"
+  },
+  "dependencies": {
+    "@mapbox/mapbox-sdk": "^0.6.0",
+    "@mapbox/mr-ui": "^0.7.1",
+    "ky": "^0.11.1",
+    "lodash": "^4.17.11",
+    "mapbox-gl": "^1.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "remark": "^10.0.1",
+    "remark-react": "^5.0.1"
+  }
+}
