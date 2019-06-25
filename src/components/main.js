@@ -18,17 +18,7 @@ class Main extends React.Component {
     super(props);
     
     this.state = {
-      docTitleText: 'Title goes here',
-      docBodyText: `
-# Heading one
-
-Description paragraphs can go here. And can be **bold** or _italicized_.
-
-* Or
-* Maybe
-* Some bullets?
-
-## Heading two`,
+      docTitleText: '<pick a school>',
       styleUrl: 'mapbox://styles/safe-routes-to-school/cjxc315vp53xs1cl4m5qi3y31',
       zoom: 11.35,
       center: [-122.4345, 37.7802],
@@ -223,13 +213,13 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
           </div>
           <h1
             style={{ marginTop: '29px' }}
-            className="mb12  txt-h1"
+            className="mb12  px24 txt-h1"
           >
             {this.state.docTitleText}
           </h1>
 
         <div id="mapArea" className="grid px12">
-          <div className="col col--12" style={{display: 'block', height:'936px', width: '792px'}}>{this.renderMap()}</div>
+          <div style={{display: 'block', height:'936px', width: '792px'}}>{this.renderMap()}</div>
         </div>
       </div>
     );

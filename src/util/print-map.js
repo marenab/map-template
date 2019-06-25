@@ -66,7 +66,7 @@ export function printMap({ map, dimensions = [792, 936], filename = "map" }) {
             },
             {
               src: mapboxAttribution,
-              x: canvas.width - 520,
+              x: canvas.width - 430,
               y: canvas.height - 75
             }
           ],
