@@ -40,6 +40,11 @@ class Main extends React.Component {
         label: s.properties.facility_name,
         value: i
     }});
+    this.schoolsList.sort((a, b) => {
+        if (a.label < b.label) return -1;
+        else if (a.label > b.label) return 1;
+        else return 0;
+    });
   }
   toReactDOM(markdown) {
     return remark()
