@@ -17,11 +17,18 @@ import MapLegend from './map-legend';
 class Main extends React.Component {
   constructor(props) {
     super(props);
-    this.layerIds = ['Bikeways', 'SFMTA metro routes', 'SFMTA bus routes', 'SFUSD School Lands', 'School Speed Zones'];
-    
+    this.layerIds = [
+      'Bikeways',
+      'SFMTA metro routes',
+      'SFMTA bus routes',
+      'SFUSD School Lands',
+      'School Speed Zones'
+    ];
+
     this.state = {
       docTitleText: '<pick a school>',
-      styleUrl: 'mapbox://styles/safe-routes-to-school/cjxc315vp53xs1cl4m5qi3y31',
+      styleUrl:
+        'mapbox://styles/safe-routes-to-school/cjxc315vp53xs1cl4m5qi3y31',
       zoom: 11.35,
       center: [-122.4345, 37.7802],
       showTransitLayers: true,
@@ -36,14 +43,16 @@ class Main extends React.Component {
   }
 
   componentWillMount() {
-    this.schoolsList = schoolsGeoJSON.features.map( (s, i) => { return {
+    this.schoolsList = schoolsGeoJSON.features.map((s, i) => {
+      return {
         label: s.properties.facility_name,
         value: i
-    }});
+      };
+    });
     this.schoolsList.sort((a, b) => {
-        if (a.label < b.label) return -1;
-        else if (a.label > b.label) return 1;
-        else return 0;
+      if (a.label < b.label) return -1;
+      else if (a.label > b.label) return 1;
+      else return 0;
     });
   }
   toReactDOM(markdown) {
@@ -82,7 +91,11 @@ class Main extends React.Component {
 
   onChangeSchool = val => {
     const schoolFeature = schoolsGeoJSON.features[val];
-    let updatedFormData = _.set(this.state.formData, 'center', schoolFeature.geometry.coordinates);
+    let updatedFormData = _.set(
+      this.state.formData,
+      'center',
+      schoolFeature.geometry.coordinates
+    );
     updatedFormData = _.set(this.state.formData, 'school', val);
     updatedFormData = _.set(this.state.formData, 'zoom', '14');
     this.setState({
@@ -94,24 +107,37 @@ class Main extends React.Component {
   };
 
   onToggleBikeLayers = val => {
-    const bikeLayers = ['Bikeways','Bikeshare Stations'];
-    this.setState({showBikeLayers: val});
+    const bikeLayers = ['Bikeways', 'Bikeshare Stations'];
+    this.setState({ showBikeLayers: val });
     bikeLayers.forEach(layer => {
-      this.state.mapObj.setLayoutProperty(layer, 'visibility', val ? 'visible' : 'none');
+      this.state.mapObj.setLayoutProperty(
+        layer,
+        'visibility',
+        val ? 'visible' : 'none'
+      );
     });
-  }
+  };
 
   onToggleTransitLayers = val => {
-    const transitLayers = ['SFMTA route labels', 'BART stations', 'SFMTA stops', 'SFMTA routes'];
-    this.setState({showTransitLayers: val});
+    const transitLayers = [
+      'SFMTA route labels',
+      'BART stations',
+      'SFMTA stops',
+      'SFMTA routes'
+    ];
+    this.setState({ showTransitLayers: val });
     transitLayers.forEach(layer => {
-      this.state.mapObj.setLayoutProperty(layer, 'visibility', val ? 'visible' : 'none');
-    })
-  }
+      this.state.mapObj.setLayoutProperty(
+        layer,
+        'visibility',
+        val ? 'visible' : 'none'
+      );
+    });
+  };
 
   onToggleWalkingIsochrone = val => {
-    this.setState({showWalkingIsochrone: val});
-  }
+    this.setState({ showWalkingIsochrone: val });
+  };
   updateMapFromForm = () => {
     const latLon = this.state.formData.center.split(',');
     this.setState({
@@ -148,9 +174,9 @@ class Main extends React.Component {
   };
 
   returnMap = map => {
-    this.setState({mapObj: map});
+    this.setState({ mapObj: map });
     this.renderLegend(this.layerIds);
-  }
+  };
 
   renderMap = () => {
     return (
@@ -166,22 +192,24 @@ class Main extends React.Component {
     );
   };
 
-  renderLegend = (layerIds) => {
+  renderLegend = layerIds => {
     const layerObj = layerIds.map(layerId => {
       const layer = this.state.mapObj.getLayer(layerId);
       return {
         layerId: layerId,
         layerType: layer.type,
-        layerColor: layer.type.symbol ? '#fff' : this.state.mapObj.getPaintProperty(layerId,`${layer.type}-color`)
-      }
+        layerColor: layer.type.symbol
+          ? '#fff'
+          : this.state.mapObj.getPaintProperty(layerId, `${layer.type}-color`)
+      };
     });
-    const legendComp = <MapLegend layers={layerObj} mapLegendId="map-legend" />
-    this.setState({legendComponent: legendComp});
-  }
+    const legendComp = <MapLegend layers={layerObj} mapLegendId="map-legend" />;
+    this.setState({ legendComponent: legendComp });
+  };
 
   exportMap = () => {
-    printMap({map: this.state.mapObj, filename: this.state.docTitleText});
-  }
+    printMap({ map: this.state.mapObj, filename: this.state.docTitleText });
+  };
 
   render() {
     const { props, state } = this;
@@ -208,43 +236,38 @@ class Main extends React.Component {
           </div>
           <div className="col col--3 px24 pt24">
             <ControlSwitch
-                id="toggleLayerBike"
-                label="Bike route and bikeshare stations"
-                onChange={this.onToggleBikeLayers}
-                value = {this.state.showBikeLayers}
+              id="toggleLayerBike"
+              label="Bike route and bikeshare stations"
+              onChange={this.onToggleBikeLayers}
+              value={this.state.showBikeLayers}
             />
             <ControlSwitch
-                id="toggleLayerTransit"
-                label="Transit stations and lines"
-                onChange={this.onToggleTransitLayers}
-                value = {this.state.showTransitLayers}
+              id="toggleLayerTransit"
+              label="Transit stations and lines"
+              onChange={this.onToggleTransitLayers}
+              value={this.state.showTransitLayers}
             />
             <ControlSwitch
-                id="toggleWalkingIsochrone"
-                label="10-min Walk Radius"
-                onChange={this.onToggleWalkingIsochrone}
-                value = {this.state.showWalkingIsochrone}
+              id="toggleWalkingIsochrone"
+              label="10-min Walk Radius"
+              onChange={this.onToggleWalkingIsochrone}
+              value={this.state.showWalkingIsochrone}
             />
           </div>
           <div className="my24  align-center ">
             <Button onClick={this.exportMap} variant="secondary">
-            Export map
+              Export map
             </Button>
           </div>
-          </div>
-          <h1
-            style={{ marginTop: '29px' }}
-            className="mb12  px24 txt-h1"
-          >
-            {this.state.docTitleText}
-          </h1>
-
-          <div className="col col--12 h600">
-            
-          </div>
-
+        </div>
+        <h1 style={{ marginTop: '29px' }} className="mb12  px24 txt-h1">
+          {this.state.docTitleText}
+        </h1>
         <div id="mapArea" className="grid px12">
-          <div className="relative" style={{display: 'block', height:'936px', width: '792px'}}>
+          <div
+            className="relative"
+            style={{ display: 'block', height: '936px', width: '792px' }}
+          >
             {this.renderMap()}
             <div className="bg-white px12 py12 absolute bottom left">
               {this.state.legendComponent}
