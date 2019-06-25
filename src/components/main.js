@@ -26,10 +26,10 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
 * Some bullets?
 
 ## Heading two`,
-      styleUrl: 'mapbox://styles/mapbox/streets-v11',
+      styleUrl: 'mapbox://styles/safe-routes-to-school/cjxc315vp53xs1cl4m5qi3y31',
       hasIsochrone: false,
-      zoom: 14,
-      center: [-122.41918, 37.77483],
+      zoom: 11.35,
+      center: [-122.4345, 37.7802],
       formData: {
         zoom: '14',
         center: '-122.41918,37.77483'
@@ -162,35 +162,6 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
             />
           </div>
           <div id="formArea" className="col col--6 px24">
-            <ControlSelect
-              id="styleSelect"
-              label="Mapbox Style"
-              themeControlSelectContainer="py24"
-              onChange={this.onChangeStyle}
-              value={this.state.styleUrl}
-              options={[
-                {
-                  label: 'Mapbox Streets',
-                  value: 'mapbox://styles/mapbox/streets-v11'
-                },
-                {
-                  label: 'Mapbox Satellite',
-                  value: 'mapbox://styles/mapbox/satellite-streets-v9'
-                },
-                {
-                  label: 'Mapbox Dark',
-                  value: 'mapbox://styles/mapbox/dark-v10'
-                },
-                {
-                  label: 'Mapbox Light',
-                  value: 'mapbox://styles/mapbox/light-v10'
-                },
-                  {
-                      label: 'Safe Routes to Schools',
-                      value: 'mapbox://styles/safe-routes-to-school/cjxc315vp53xs1cl4m5qi3y31'
-                  }
-              ]}
-            />
             <ControlTextarea
               id="zoom"
               label="Zoom"

@@ -20,7 +20,7 @@ export default class MapContainer extends React.PureComponent {
   }
 
   static defaultProps = {
-    mapboxAccessToken: process.env.MAPBOX_ACCESS_TOKEN,
+    mapboxAccessToken: "pk.eyJ1Ijoic2FmZS1yb3V0ZXMtdG8tc2Nob29sIiwiYSI6ImNqeGFxeTlkcjE5OXYzdHFicGcyNXFxNjAifQ.-2qdb6JZxOH549ZTzS_M_w",
     mapContainerStyle: {
       position: 'relative',
       width: '100%',
@@ -36,7 +36,8 @@ export default class MapContainer extends React.PureComponent {
       container: this.mapContainer.current, // this.ref.current instead of assigning ref via callback as in older examples
       style: styleUrl,
       center,
-      zoom
+      zoom,
+      hash: true
     });
 
     const marker = new mapboxgl.Marker({
