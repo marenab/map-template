@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import MapContainer from './map-conatainer';
 import ControlTextarea from '@mapbox/mr-ui/control-textarea';
 import ControlSelect from '@mapbox/mr-ui/control-select';
+import ControlSwitch from '@mapbox/mr-ui/control-switch';
 import ControlCheckboxSet from '@mapbox/mr-ui/control-checkbox-set';
 import _ from 'lodash';
 import Button from '@mapbox/mr-ui/button';
@@ -31,6 +32,8 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
       hasIsochrone: false,
       zoom: 11.35,
       center: [-122.4345, 37.7802],
+      showTransitLayers: true,
+      showBikeLayers: true,
       formData: {
         zoom: '14',
         center: '-122.41918,37.77483',
@@ -89,8 +92,15 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
       center: schoolFeature.geometry.coordinates,
       zoom: 15
     });
-
   };
+
+  onToggleBikeLayers = val => {
+    console.log(val);
+  }
+
+  onToggleTransitLayers = val => {
+    console.log(val);
+  }
 
   updateMapFromForm = () => {
     const latLon = this.state.formData.center.split(',');
@@ -162,6 +172,18 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
               onChange={this.onChangeSchool}
               value={this.state.formData.school}
               options={this.schoolsList}
+            />
+            <ControlSwitch
+                id="toggleLayerBike"
+                label="Bike route and bikeshare stations"
+                onChange={this.onToggleBikeLayers}
+                value = {this.state.showBikeLayers}
+            />
+            <ControlSwitch
+                id="toggleLayerTransit"
+                label="Transit stations and lines"
+                onChange={this.onToggleTransitLayers}
+                value = {this.state.showTransitLayers}
             />
             <ControlCheckboxSet
               id="isochrone-toggle"
