@@ -12,10 +12,12 @@ import reactRenderer from 'remark-react';
 import { stringify } from 'querystring';
 import { printMap } from '../util/print-map';
 import schoolsGeoJSON from '../../data/sfusd_school_pt.wgs84.json';
+import MapLegend from './map-legend';
 
 class Main extends React.Component {
   constructor(props) {
     super(props);
+    this.layerIds = ['Bikeways', 'SFMTA metro routes', 'SFMTA bus routes', 'SFUSD School Lands', 'School Speed Zones'];
     
     this.state = {
       docTitleText: 'Title goes here',
@@ -35,6 +37,7 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
       center: [-122.4345, 37.7802],
       showTransitLayers: true,
       showBikeLayers: true,
+      legendFinished: false,
       formData: {
         zoom: '14',
         center: '-122.41918,37.77483',
@@ -149,6 +152,7 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
 
   returnMap = map => {
     this.setState({mapObj: map});
+    this.renderLegend(this.layerIds);
   }
 
   renderMap = () => {
@@ -164,6 +168,19 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
       />
     );
   };
+
+  renderLegend = (layerIds) => {
+    const layerObj = layerIds.map(layerId => {
+      const layer = this.state.mapObj.getLayer(layerId);
+      return {
+        layerId: layerId,
+        layerType: layer.type,
+        layerColor: layer.type.symbol ? '#fff' : this.state.mapObj.getPaintProperty(layerId,`${layer.type}-color`)
+      }
+    });
+    const legendComp = <MapLegend layers={layerObj} mapLegendId="map-legend" />
+    this.setState({legendComponent: legendComp});
+  }
 
   exportMap = () => {
     printMap({map: this.state.mapObj});
@@ -222,7 +239,12 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
           >
             {this.state.docTitleText}
           </h1>
-          <div className="col col--12 h600">{this.renderMap()}</div>
+          <div className="col col--12 h600">
+            {this.renderMap()}
+            <div className="bg-white px12 py12 absolute bottom left">
+              {this.state.legendComponent}
+            </div>
+          </div>
         </div>
       </div>
     );
