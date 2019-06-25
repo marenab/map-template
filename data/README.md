@@ -20,6 +20,7 @@ required by Mapbox Studio.
   * sf_cross_guard_pt.wgs84.json
 - School isochrone 5,10,15min
   * sfusd_school_pt_10mins.json, sfusd_school_pt_15mins.json
+  * Retrieved with Mapbox Isochrones API using a [script](../scripts/isochrones).
 - landuse = park
   * Provided by Mapbox Streets v8 tileset
 - Off Street Parking
