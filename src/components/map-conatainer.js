@@ -20,7 +20,7 @@ export default class MapContainer extends React.PureComponent {
   }
 
   static defaultProps = {
-    mapboxAccessToken: "pk.eyJ1IjoiZGFuc3dpY2siLCJhIjoiY2p4YW9ndzhpMHpmcjN5bnI5azI4NzkydiJ9.OM4ZKavMVW_vi4yd6iuG5A",
+    mapboxAccessToken: process.env.MAPBOX_ACCESS_TOKEN,
     mapContainerStyle: {
       position: 'relative',
       width: '100%',
@@ -31,7 +31,7 @@ export default class MapContainer extends React.PureComponent {
   renderMap() {
     const { center, zoom, hasIsochrone, mapboxAccessToken, styleUrl } = this.props;
     mapboxgl.accessToken = mapboxAccessToken;
-    
+
     this.map = new mapboxgl.Map({
       container: this.mapContainer.current, // this.ref.current instead of assigning ref via callback as in older examples
       style: styleUrl,
