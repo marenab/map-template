@@ -15,6 +15,7 @@ class Main extends React.Component {
     super(props);
 
     this.state = {
+      docTitleText: 'Title goes here',
       docBodyText: `
 # Heading one
 
@@ -28,10 +29,10 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
       styleUrl: 'mapbox://styles/mapbox/streets-v11',
       hasIsochrone: false,
       zoom: 14,
-      center: [-122.41918,37.77483],
+      center: [-122.41918, 37.77483],
       formData: {
-        zoom: "14",
-        center: "-122.41918,37.77483"
+        zoom: '14',
+        center: '-122.41918,37.77483'
       }
     };
   }
@@ -48,13 +49,19 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
     });
   };
 
+  onChangeTitle = val => {
+    this.setState({
+      docTitleText: val
+    });
+  };
+
   onChangeStyle = val => {
     this.setState({
       styleUrl: val
     });
     this.updateMapFromForm();
     this.renderMap();
-  }
+  };
 
   onChangeZoom = val => {
     const updatedFormData = _.set(this.state.formData, 'zoom', val);
@@ -62,14 +69,14 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
     this.setState({
       formData: updatedFormData
     });
-  }
+  };
 
   onChangeCenter = val => {
     const updatedFormData = _.set(this.state.formData, 'center', val);
     this.setState({
       formData: updatedFormData
     });
-  }
+  };
 
   updateMapFromForm = () => {
     const latLon = this.state.formData.center.split(',');
@@ -79,7 +86,7 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
     this.setState({
       zoom: parseInt(this.state.formData.zoom) || this.state.zoom
     });
-  }
+  };
 
   updateFromMap = (center, zoom) => {
     const updatedWithCenter = _.set(this.state.formData, 'center', `${center}`);
@@ -87,7 +94,7 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
     this.setState({
       formData: updatedWithZoom
     });
-  }
+  };
 
   getHash = () => {
     const hashArr = window.location.hash.split('/');
@@ -95,8 +102,8 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
       zoom: hashArr[0],
       lon: hashArr[1],
       lat: hashArr[2]
-    }
-  }
+    };
+  };
 
   updateZoomAndCenter = () => {
     const vals = getHash();
@@ -104,7 +111,7 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
       zoom: vals.zoom,
       center: [vals.lon, vals.lat]
     });
-  }
+  };
 
   renderMap = () => {
     return (
@@ -116,7 +123,7 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
         onMove={this.updateFromMap}
       />
     );
-  }
+  };
 
   render() {
     const { props, state } = this;
@@ -124,6 +131,14 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
       <div id="main">
         <div id="menuArea" className="grid mx24 my24">
           <div className="col col--6">
+            <ControlTextarea
+              id="document-title"
+              label="Title"
+              themeControlTextarea="w-full scroll-auto round-1 input"
+              placeholder="Give your document a title"
+              value={this.state.docTitleText}
+              onChange={this.onChangeTitle}
+            />
             <ControlTextarea
               id="change-document-text"
               label="Text"
@@ -188,10 +203,12 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
               value={this.state.formData.center}
               onChange={this.onChangeCenter}
             />
-            <ControlCheckboxSet 
+            <ControlCheckboxSet
               id="isochrone-toggle"
               themeCheckboxContainer="py24"
-              onChange={() => this.setState({hasIsochrone: !this.state.hasIsochrone})}
+              onChange={() =>
+                this.setState({ hasIsochrone: !this.state.hasIsochrone })
+              }
               options={[
                 {
                   label: 'Display 15-minute walking isochrone?',
@@ -200,10 +217,7 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
               ]}
             />
             <div className="my24">
-              <Button 
-                onClick={this.updateMapFromForm}
-                variant="secondary"
-              >
+              <Button onClick={this.updateMapFromForm} variant="secondary">
                 Update map
               </Button>
             </div>
@@ -212,10 +226,14 @@ Description paragraphs can go here. And can be **bold** or _italicized_.
             The area below is a preview of what your document will look like.
           </p>
         </div>
-        <div id="mapArea"className="grid">
-          <div className="col col--12 h600">
-            {this.renderMap()}
-          </div>
+        <div id="mapArea" className="grid px12">
+          <h1
+            style={{ marginTop: '29px' }}
+            className="mb12  txt-h1"
+          >
+            {this.state.docTitleText}
+          </h1>
+          <div className="col col--12 h600">{this.renderMap()}</div>
           <div className="col col--12">
             <div
               style={{ marginTop: '29px' }}

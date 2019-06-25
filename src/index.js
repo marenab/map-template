@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import qs from 'qs';
 import Main from './components/main';
+import './custom-css.css';
+
 
 class Index extends React.Component {
   constructor(props) {
