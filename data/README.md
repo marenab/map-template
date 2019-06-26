@@ -1,8 +1,8 @@
 ## Backing Data
 
-This directory contains GeoJSON data files used to produce tilesets for the Safe
-Routes to Streets Mapbox project. Each dataset is in the WGS84 coordinate system
-required by Mapbox Studio.
+This directory contains GeoJSON data files used to produce [tilesets][tileset]
+for the Safe Routes to Streets Mapbox project. Each dataset is in the [WGS84
+coordinate system][wgs84] required by Mapbox Studio.
 
 - SFMTA routes
   * sfmta_route_li.wgs84.json
@@ -36,6 +36,8 @@ As part of preparing this data in June 2019, we made some fixes to the
 underlying data, which are noted in [this spreadsheet][notes].
 
 [notes]: https://docs.google.com/spreadsheets/d/147HcGrIUKOT4Wvoe8xqwE48noloZ-a62gm0WzSf7nsQ/edit#gid=0
+[wgs84]: https://spatialreference.org/ref/epsg/wgs-84/
+[tileset]: https://docs.mapbox.com/studio-manual/reference/tilesets/#what-is-a-tileset
 
 ## Converting `EPSG:3857` to `EPSG:4326` (WGS84)
 

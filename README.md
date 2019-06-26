@@ -41,15 +41,13 @@ TODO
 Development dependencies:
 
 - npm
--
--
 
-``` bash
-$ npm install
-```
+- Install dependencies: `npm install`
+- Run locally: `npm start`
+- Build front-end application: `npm run build`
 
-To run locally:
+[npm]: https://www.npmjs.com/get-npm
 
-``` bash
-$ npm run build
-```
+## Hosting Application
+
+TODO

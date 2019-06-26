@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "underreact start",
-    "build": "underreact build",
+    "build": "mkdir -p public && underreact build",
     "serve-static": "underreact serve-static"
   },
   "repository": {
