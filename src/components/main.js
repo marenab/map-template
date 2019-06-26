@@ -123,7 +123,8 @@ class Main extends React.Component {
       'SFMTA route labels',
       'BART stations',
       'SFMTA stops',
-      'SFMTA routes'
+      'SFMTA metro routes',
+      'SFMTA bus routes',
     ];
     this.setState({ showTransitLayers: val });
     transitLayers.forEach(layer => {
@@ -269,7 +270,7 @@ class Main extends React.Component {
             style={{ display: 'block', height: '936px', width: '792px' }}
           >
             {this.renderMap()}
-            <div className="bg-white px12 py12 absolute bottom left">
+            <div className="bg-white px12 pt12 pb36 absolute bottom left">
               {this.state.legendComponent}
             </div>
           </div>
