@@ -42,7 +42,7 @@ underlying data, which are noted in [this spreadsheet][notes].
 ## Converting `EPSG:3857` to `EPSG:4326` (WGS84)
 
 The original data provided was in the [`EPSG:3857`][orig_proj] projection. We
-reprojected this data into WGS84 using [`reproject`][reproject].
+reprojected this data into WGS84 using [`reproject`][reproject]. To convert:
 
 ``` bash
 $ cat sfusd_school_pt.json \
